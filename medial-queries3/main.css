@@ -1,3 +1,133 @@
 body {
   background: peachpuff;
 }
+.container{
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+}
+.a{
+  border: 1px solid;
+  height: 300px;
+  width: 90%;
+  background-color: aqua;
+  margin: 1%;
+}
+.b{
+  border: 1px solid;
+  height: 100px;
+  width: 19%;
+  background-color: aqua;
+  margin: 1% 1% 1% 0;
+}
+.c{
+  border: 1px solid;
+  height: 100px;
+  width: 19%;
+  background-color: aqua;
+  margin: 1%;
+}
+.d{
+  border: 1px solid;
+  height: 100px;
+  width: 19%;
+  background-color: aqua;
+  margin: 1% 0 1% 1%;
+}
+.e{
+  border: 1px solid;
+  height: 100px;
+  width: 19%;
+  background-color: aqua;
+  margin: 1% 1% 1% 0;
+}
+.f{
+  border: 1px solid;
+  height: 100px;
+  width: 19%;
+  background-color: aqua;
+  margin: 1%;
+}
+.g{
+  border: 1px solid;
+  height: 100px;
+  width: 19%;
+  background-color: aqua;
+  margin: 1% 0 1% 1%;
+}
+.h{
+  border: 1px solid;
+  height: 400px;
+  width: 27%;
+  background-color: aqua;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  body {
+    background: rgb(194, 134, 44);
+  }
+  .container{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .a{
+    border: 1px solid;
+    height: 100px;
+    width: 90%;
+    background-color: rgb(119, 0, 255);
+    margin: 1%;
+  }
+  .b{
+    border: 1px solid;
+    height: 100px;
+    width: 29%;
+    background-color: rgb(119, 0, 255);
+    margin: 1% 1% 1% 0;
+  }
+  .c{
+    border: 1px solid;
+    height: 100px;
+    width: 29%;
+    background-color: rgb(119, 0, 255);
+    margin: 1%;
+  }
+  .d{
+    border: 1px solid;
+    height: 100px;
+    width: 27%;
+    background-color: rgb(119, 0, 255);
+    margin: 1% 0 1% 1%;
+  }
+  .e{
+    border: 1px solid;
+    height: 100px;
+    width: 29%;
+    background-color: rgb(119, 0, 255);
+    margin: 1% 1% 1% 0;
+  }
+  .f{
+    border: 1px solid;
+    height: 100px;
+    width: 29%;
+    background-color: rgb(119, 0, 255);
+    margin: 1%;
+  }
+  .g{
+    border: 1px solid;
+    height: 100px;
+    width: 27%;
+    background-color: rgb(119, 0, 255);
+    margin: 1% 0 1% 1%;
+  }
+  .h{
+    border: 1px solid;
+    height: 200px;
+    width: 90%;
+    background-color: rgb(119, 0, 255);
+    margin: 1%;
+  }
+}
